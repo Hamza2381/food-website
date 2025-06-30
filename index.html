@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Food Counter | Home</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="bg-white p-0" style="width: 100% !important; overflow-x: hidden;">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="position-relative p-0" style="width: 100% !important;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>TheFoodCounter</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4" style="gap: 0.3rem;">
+                        <a href="index.html" class="nav-item nav-link active" style="font-size: 16px;">Home</a>
+                        <a href="about.html" class="nav-item nav-link" style="font-size: 16px;">About</a>
+                        <a href="service.html" class="nav-item nav-link" style="font-size: 16px;">Services</a>
+                        <a href="our-kitchens.html" class="nav-item nav-link" style="font-size: 16px;">Our Kitchens</a>
+                        <a href="why_us.html" class="nav-item nav-link" style="font-size: 16px;">Why Us?</a>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary py-2 px-4">Contact Us</a>
+                </div>
+            </nav>
+
+            <div class="py-5 bg-dark hero-header mb-5" style="width: 100% !important; background: linear-gradient(135deg, #0F172B 0%, #0a0f1a 25%, #1a1f2e 50%, #0a0f1a 75%, #0F172B 100%), linear-gradient(45deg, rgba(254, 161, 22, 0.05) 0%, rgba(254, 161, 22, 0.02) 100%); min-height: 110vh; position: relative; overflow: hidden; padding-top: 100px; padding-bottom: 80px;">
+                <!-- Modern background elements -->
+                <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(254, 161, 22, 0.02) 0%, transparent 70%); animation: float 20s ease-in-out infinite;"></div>
+                <div style="position: absolute; top: 20%; right: 10%; width: 300px; height: 300px; background: linear-gradient(45deg, rgba(254, 161, 22, 0.05), transparent); border-radius: 50%; blur: 100px;"></div>
+                <div style="position: absolute; bottom: 10%; left: 5%; width: 200px; height: 200px; background: linear-gradient(45deg, rgba(254, 161, 22, 0.03), transparent); border-radius: 50%; blur: 80px;"></div>
+                
+                <div class="container my-5 py-5" style="position: relative; z-index: 2;">
+                    <div class="row align-items-center g-5 min-vh-100">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-2 text-white animated slideInLeft mb-4" style="font-weight: 800; line-height: 1.1; background: linear-gradient(45deg, #ffffff 0%, #FEA116 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                                Get Cooking<br>
+                                <span style="color: #FEA116; text-shadow: 0 0 30px rgba(254, 161, 22, 0.5);">Professional</span><br>
+                                Kitchen Space
+                            </h1>
+                            
+                            <p class="animated slideInLeft mb-5 fs-5 lh-lg" style="max-width: 600px; color: rgba(255, 255, 255, 0.85);">
+                                We deliver premium kitchen facilities tailored to help food businesses succeed. With state-of-the-art kitchens and a prime location, we make it easy for chefs and entrepreneurs to launch, grow, and scale their operations.
+                            </p>
+                            
+                            <div class="d-flex flex-column flex-sm-row gap-3 animated slideInLeft">
+                                <a href="about.html" class="btn btn-lg px-5 py-3 rounded-pill" style="background: linear-gradient(45deg, #E6930F, #d1840e); border: none; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 8px 32px rgba(230, 147, 15, 0.3); transition: all 0.3s ease; min-width: 180px; color: white;" 
+                                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 12px 40px rgba(230, 147, 15, 0.4)';" 
+                                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(230, 147, 15, 0.3)';">
+                                    <i class="fa fa-info-circle me-3"></i>About Us
+                                </a>
+                                
+                                <a href="contact.html" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill hero-contact-btn" style="border: 2px solid rgba(255, 255, 255, 0.3); font-weight: 600; backdrop-filter: blur(10px); transition: all 0.3s ease; min-width: 180px; color: white; position: relative; overflow: hidden;">
+                                    <span class="fill-effect-ltr" style="position: absolute; top: 0; left: 0; width: 0%; height: 100%; background: #FEA116; transition: width 0.4s ease; z-index: 1; border-radius: 50px;"></span>
+                                    <span style="position: relative; z-index: 2; display: flex; align-items: center; justify-content: center;">
+                                        <i class="fa fa-envelope me-3" style="transition: all 0.3s ease;"></i>Contact Us
+                                    </span>
+                                </a>
+                            </div>
+                            
+                            <!-- Stats -->
+                            <div class="mt-5 animated slideInLeft" style="max-width: 600px; margin-left: 2rem;">
+                                <div class="d-flex justify-content-start" style="gap: 4rem;">
+                                    <div style="min-width: 120px;">
+                                        <h3 class="text-warning fw-bold mb-1"><span class="counter" data-target="15">0</span>+</h3>
+                                        <small class="text-white-50">Years Experience</small>
+                                    </div>
+                                    <div style="min-width: 120px;">
+                                        <h3 class="text-warning fw-bold mb-1"><span class="counter" data-target="24">0</span>/7</h3>
+                                        <small class="text-white-50">Access</small>
+                                    </div>
+                                    <div style="min-width: 120px;">
+                                        <h3 class="text-warning fw-bold mb-1"><span class="counter" data-target="100">0</span>%</h3>
+                                        <small class="text-white-50">Equipped</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden position-relative d-none d-lg-block">
+                            <!-- Modern image container -->
+                            <div class="position-relative d-inline-block">
+                                <!-- Decorative elements -->
+                                <div style="position: absolute; top: -20px; left: -20px; width: 100px; height: 100px; background: linear-gradient(45deg, #FEA116, transparent); border-radius: 20px; opacity: 0.7; animation: pulse 3s ease-in-out infinite;"></div>
+                                <div style="position: absolute; bottom: -30px; right: -30px; width: 150px; height: 150px; background: linear-gradient(45deg, transparent, #FEA116); border-radius: 50%; opacity: 0.5; animation: pulse 4s ease-in-out infinite reverse;"></div>
+                                
+                                <!-- Main image with modern styling -->
+                                <div class="position-relative" style="background: linear-gradient(45deg, rgba(254, 161, 22, 0.1), rgba(254, 161, 22, 0.05)); padding: 30px; border-radius: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(254, 161, 22, 0.2);">
+                                    <img class="img-fluid rounded-4" src="img/hero.png" alt="" style="filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3)); animation: imgFloat 80s linear infinite;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+
+
+        <!-- Service Start -->
+        <div class="container-fluid py-5" style="background: #ffffff; position: relative; overflow: hidden;">
+            <!-- Background decorative elements -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: linear-gradient(45deg, rgba(254, 161, 22, 0.03), transparent); border-radius: 50%; pointer-events: none;"></div>
+            <div style="position: absolute; bottom: -150px; left: -150px; width: 400px; height: 400px; background: linear-gradient(45deg, rgba(15, 23, 43, 0.02), transparent); border-radius: 50%; pointer-events: none;"></div>
+            
+            <div class="container px-4 px-lg-5" style="position: relative; z-index: 2;">
+                <div class="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Services</h5>
+                    <h1 class="mb-4" style="font-weight: 700; color: #0F172B;">What We Offer</h1>
+                    <p class="text-muted mx-auto" style="max-width: 600px; font-size: 1.1rem; line-height: 1.6;">Discover our comprehensive range of professional kitchen solutions designed to elevate your culinary business to new heights.</p>
+                </div>
+                
+                <div class="row g-4 scroll-stagger">
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="service-card h-100" style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 3rem 3rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); border: 1px solid rgba(254, 161, 22, 0.1); transition: all 0.4s ease; position: relative; overflow: hidden;">
+                            <!-- Animated top border -->
+                            <div class="service-top-border" style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #FEA116, #E6930F); border-radius: 20px 20px 0 0; transition: all 0.4s ease;"></div>
+                            
+                            <div class="text-center">
+                                <div class="service-icon-wrapper mb-4" style="width: 80px; height: 80px; margin: 0 auto; background: linear-gradient(145deg, #FEA116, #E6930F); border-radius: 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(254, 161, 22, 0.3); transition: all 0.4s ease;">
+                                    <i class="fa fa-user-tie" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h5 class="mb-3" style="font-weight: 600; color: #0F172B; font-size: 1.3rem;">Fully Equipped</h5>
+                                <p class="text-muted" style="line-height: 1.6; font-size: 0.95rem;">Our kitchens are fully equipped to get your business started right away. You have large double sinks, hand basin, grease traps, canopy extraction etc</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="service-card h-100" style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 3rem 3rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); border: 1px solid rgba(254, 161, 22, 0.1); transition: all 0.4s ease; position: relative; overflow: hidden;">
+                            <div class="service-top-border" style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #FEA116, #E6930F); border-radius: 20px 20px 0 0; transition: all 0.4s ease;"></div>
+                            
+                            <div class="text-center">
+                                <div class="service-icon-wrapper mb-4" style="width: 80px; height: 80px; margin: 0 auto; background: linear-gradient(145deg, #FEA116, #E6930F); border-radius: 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(254, 161, 22, 0.3); transition: all 0.4s ease;">
+                                    <i class="fa fa-utensils" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h5 class="mb-3" style="font-weight: 600; color: #0F172B; font-size: 1.3rem;">Hygiene</h5>
+                                <p class="text-muted" style="line-height: 1.6; font-size: 0.95rem;">Our kitchens are equipped with hygienic wall cladding & flooring. We have a waste service & pest control in place</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="service-card h-100" style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 3rem 3rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); border: 1px solid rgba(254, 161, 22, 0.1); transition: all 0.4s ease; position: relative; overflow: hidden;">
+                            <div class="service-top-border" style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #FEA116, #E6930F); border-radius: 20px 20px 0 0; transition: all 0.4s ease;"></div>
+                            
+                            <div class="text-center">
+                                <div class="service-icon-wrapper mb-4" style="width: 80px; height: 80px; margin: 0 auto; background: linear-gradient(145deg, #FEA116, #E6930F); border-radius: 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(254, 161, 22, 0.3); transition: all 0.4s ease;">
+                                    <i class="fa fa-shield-alt" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h5 class="mb-3" style="font-weight: 600; color: #0F172B; font-size: 1.3rem;">Health & Safety</h5>
+                                <p class="text-muted" style="line-height: 1.6; font-size: 0.95rem;">Our building are various health & safety systems up to the correct specification for kitchens</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="service-card h-100" style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 3rem 3rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); border: 1px solid rgba(254, 161, 22, 0.1); transition: all 0.4s ease; position: relative; overflow: hidden;">
+                            <div class="service-top-border" style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #FEA116, #E6930F); border-radius: 20px 20px 0 0; transition: all 0.4s ease;"></div>
+                            
+                            <div class="text-center">
+                                <div class="service-icon-wrapper mb-4" style="width: 80px; height: 80px; margin: 0 auto; background: linear-gradient(145deg, #FEA116, #E6930F); border-radius: 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(254, 161, 22, 0.3); transition: all 0.4s ease;">
+                                    <i class="fa fa-clock" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h5 class="mb-3" style="font-weight: 600; color: #0F172B; font-size: 1.3rem;">24/7 Access</h5>
+                                <p class="text-muted" style="line-height: 1.6; font-size: 0.95rem;">Kitchen spaces are accessible 24/7. Allowing you to manage how and when you run your business</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5" style="background: #ffffff; position: relative; overflow: hidden;">
+            <!-- Background decorative elements -->
+            <div style="position: absolute; top: -100px; left: -100px; width: 400px; height: 400px; background: linear-gradient(45deg, rgba(254, 161, 22, 0.02), transparent); border-radius: 50%; pointer-events: none;"></div>
+            <div style="position: absolute; bottom: -150px; right: -150px; width: 500px; height: 500px; background: linear-gradient(45deg, rgba(15, 23, 43, 0.03), transparent); border-radius: 50%; pointer-events: none;"></div>
+            
+            <div class="container px-4 px-lg-5" style="position: relative; z-index: 2;">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="about-image-grid" style="position: relative;">
+                            <!-- Modern grid layout -->
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="image-wrapper" style="position: relative; overflow: hidden; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.4s ease;">
+                                        <img class="img-fluid w-100" src="img/photos/sink-tank.jpg" style="aspect-ratio: 1; object-fit: cover;">
+                                        <div class="image-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(254, 161, 22, 0.8), rgba(230, 147, 15, 0.8)); opacity: 0; transition: all 0.4s ease; display: flex; align-items: center; justify-content: center; border-radius: 20px;">
+                                            <div class="text-center text-white">
+                                                <i class="fa fa-search-plus fa-2x mb-2"></i>
+                                                <p class="mb-0 fw-bold">Kitchen Facilities</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="image-wrapper" style="position: relative; overflow: hidden; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.4s ease; margin-top: 25%;">
+                                        <img class="img-fluid w-100" src="img/about-1.jpg" style="aspect-ratio: 1; object-fit: cover;">
+                                        <div class="image-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(254, 161, 22, 0.8), rgba(230, 147, 15, 0.8)); opacity: 0; transition: all 0.4s ease; display: flex; align-items: center; justify-content: center; border-radius: 20px;">
+                                            <div class="text-center text-white">
+                                                <i class="fa fa-utensils fa-2x mb-2"></i>
+                                                <p class="mb-0 fw-bold">Professional Setup</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="image-wrapper" style="position: relative; overflow: hidden; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.4s ease;">
+                                        <img class="img-fluid w-100" src="img/photos/room.jpg" style="aspect-ratio: 1; object-fit: cover;">
+                                        <div class="image-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(254, 161, 22, 0.8), rgba(230, 147, 15, 0.8)); opacity: 0; transition: all 0.4s ease; display: flex; align-items: center; justify-content: center; border-radius: 20px;">
+                                            <div class="text-center text-white">
+                                                <i class="fa fa-home fa-2x mb-2"></i>
+                                                <p class="mb-0 fw-bold">Modern Spaces</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="image-wrapper" style="position: relative; overflow: hidden; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.4s ease;">
+                                        <img class="img-fluid w-100" src="img/photos/kitchen.jpg" style="aspect-ratio: 1; object-fit: cover;">
+                                        <div class="image-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(254, 161, 22, 0.8), rgba(230, 147, 15, 0.8)); opacity: 0; transition: all 0.4s ease; display: flex; align-items: center; justify-content: center; border-radius: 20px;">
+                                            <div class="text-center text-white">
+                                                <i class="fa fa-fire fa-2x mb-2"></i>
+                                                <p class="mb-0 fw-bold">Ready to Cook</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Floating badge -->
+                            <div class="floating-badge wow bounceIn" data-wow-delay="0.7s" style="position: absolute; top: 20px; right: 20px; background: linear-gradient(45deg, #FEA116, #E6930F); color: white; padding: 15px 20px; border-radius: 50px; box-shadow: 0 8px 25px rgba(254, 161, 22, 0.4); z-index: 10; animation: badgeFloat 3s ease-in-out infinite;">
+                                <div class="text-center">
+                                    <h4 class="mb-0 fw-bold"><span class="about-counter" data-target="15">0</span>+</h4>
+                                    <small>Years</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="about-content" style="padding-left: 2rem;">
+                            <h5 class="section-title ff-secondary text-start text-primary fw-normal mb-3">About Us</h5>
+                            <h1 class="mb-4 about-heading" style="font-weight: 700; color: #0F172B; line-height: 1.2;">Welcome to <span class="text-primary">TheFoodCounter</span><i class="fa fa-utensils text-primary ms-2"></i></h1>
+<!--                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>-->
+                        <p class="mb-4">The Food Counter is a leading provider of ghost and dark kitchen solutions, designed to help food entrepreneurs launch and grow their businesses with ease. We offer state-of-the-art kitchen facilities to support the success of our users in the competitive food industry. <br>
+
+Located in the heart of Birmingham’s bustling Tyseley industrial estate, The Food Counter benefits from a prime position near the main Warwick Road. Our strategic location offers easy access to residential, commercial, and industrial districts, and is conveniently situated less than 2.5 miles from the city centre—outside the ULEZ zone. With direct access to key transport routes such as the A34, A45, and A41, businesses operating from The Food Counter enjoy efficient connectivity across Birmingham and the surrounding areas.</p>
+                            <!-- Features list -->
+                            <div class="features-list mb-4">
+                                <div class="row g-3">
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="feature-item d-flex align-items-center" style="padding: 15px; background: rgba(254, 161, 22, 0.05); border-radius: 12px; border-left: 4px solid #FEA116; transition: all 0.3s ease;">
+                                            <i class="fa fa-check-circle text-primary me-3" style="font-size: 1.2rem;"></i>
+                                            <div>
+                                                <h6 class="mb-1" style="color: #0F172B; font-weight: 600;">Prime Location</h6>
+                                                <small class="text-muted">Birmingham City Centre</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                                        <div class="feature-item d-flex align-items-center" style="padding: 15px; background: rgba(254, 161, 22, 0.05); border-radius: 12px; border-left: 4px solid #FEA116; transition: all 0.3s ease;">
+                                            <i class="fa fa-check-circle text-primary me-3" style="font-size: 1.2rem;"></i>
+                                            <div>
+                                                <h6 class="mb-1" style="color: #0F172B; font-weight: 600;">24/7 Access</h6>
+                                                <small class="text-muted">Round the clock</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                                        <div class="feature-item d-flex align-items-center" style="padding: 15px; background: rgba(254, 161, 22, 0.05); border-radius: 12px; border-left: 4px solid #FEA116; transition: all 0.3s ease;">
+                                            <i class="fa fa-check-circle text-primary me-3" style="font-size: 1.2rem;"></i>
+                                            <div>
+                                                <h6 class="mb-1" style="color: #0F172B; font-weight: 600;">Fully Equipped</h6>
+                                                <small class="text-muted">Professional grade</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                                        <div class="feature-item d-flex align-items-center" style="padding: 15px; background: rgba(254, 161, 22, 0.05); border-radius: 12px; border-left: 4px solid #FEA116; transition: all 0.3s ease;">
+                                            <i class="fa fa-check-circle text-primary me-3" style="font-size: 1.2rem;"></i>
+                                            <div>
+                                                <h6 class="mb-1" style="color: #0F172B; font-weight: 600;">No Setup Costs</h6>
+                                                <small class="text-muted">Start immediately</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- CTA Button -->
+                            <a class="btn btn-primary btn-lg px-5 py-3 rounded-pill get-in-touch-btn" href="contact.html" style="background: linear-gradient(45deg, #FEA116, #E6930F); border: none; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 8px 25px rgba(254, 161, 22, 0.3); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; transform: translateY(0);">
+                                <!-- Animated background layers -->
+                                <div class="btn-bg-layer" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, #E6930F, #d1840e); opacity: 0; transition: opacity 0.4s ease; border-radius: 50px;"></div>
+                                <div class="btn-shimmer" style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); transition: left 0.6s ease; border-radius: 50px;"></div>
+                                
+                                <!-- Button content -->
+                                <span class="btn-content" style="position: relative; z-index: 3; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                    <i class="fa fa-phone me-3 btn-icon" style="transition: all 0.3s ease;"></i>
+                                    <span class="btn-text">Get In Touch</span>
+                                </span>
+                                
+                                <!-- Floating particles effect -->
+                                <div class="btn-particle particle-1" style="position: absolute; width: 4px; height: 4px; background: rgba(255,255,255,0.6); border-radius: 50%; top: 20%; left: 20%; opacity: 0; transition: all 0.6s ease;"></div>
+                                <div class="btn-particle particle-2" style="position: absolute; width: 3px; height: 3px; background: rgba(255,255,255,0.4); border-radius: 50%; top: 60%; right: 30%; opacity: 0; transition: all 0.8s ease;"></div>
+                                <div class="btn-particle particle-3" style="position: absolute; width: 2px; height: 2px; background: rgba(255,255,255,0.5); border-radius: 50%; bottom: 30%; left: 60%; opacity: 0; transition: all 0.7s ease;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Reservation Start -->
+        <div class="container-fluid py-5 bg-dark scroll-slide-up">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="row g-0">
+                    <div class="col-md-6 scroll-slide-left">
+                        <div class="video">
+                            <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://youtube.com/embed/kIMiJstAhT4" data-bs-target="#videoModal">
+
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 bg-dark d-flex align-items-center">
+                        <div class="p-5 scroll-slide-right">
+                            <h5 class="section-title ff-secondary text-start text-primary fw-normal">Enquire</h5>
+                            <h1 class="text-white mb-4">Request a call </h1>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Phonenumber">
+                                            <label for="email">Contact Number</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="select1">
+                                              <option value="1">Sales Enquiry</option>
+                                              <option value="2">General Enquiry</option>
+                                            </select>
+                                            <label for="select1">Subject</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Additional Information" id="message" style="height: 100px"></textarea>
+                                            <label for="message">Details about your enquiry</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Request</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">The Food Counter</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="https://youtube.com/embed/kIMiJstAhT4" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reservation Start -->
+
+
+
+
+
+
+                <div class="container-fluid py-5 px-4 px-lg-5 scroll-fade-scale">
+            <div class="container-fluid">
+                <div class="text-center scroll-reveal">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Why Us?</h5>
+                    <h1 class="mb-5">Just Cook. Simple. </h1>
+
+                    <p>Here are just a few reasons...</p>
+
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Our kitchens are perfectly positioned to help new and established food businesses thrive, with easy access to key transport links, diverse demographics, and growing commercial areas.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/star.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Prime Location</h5>
+                                <small>Birmingham</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>At The Food Counter, your success is our priority. That’s why we offer flexible contracts with zero setup costs, allowing you to focus on growing your business without the burden of upfront expenses.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/star.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Flexible</h5>
+                                <small>Flexible contracts available</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>We pride ourselves on offering some of the most competitive rates in the market. Our dedicated support team works quickly to get you up and running in no time, minimizing delays and helping you hit the ground running.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/star.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Quick Start-Up</h5>
+                                <small>Competitive Pricing</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Our kitchens are professionally designed to meet the highest commercial standards. Each space is tailored to support the specific needs of your food business, ensuring you can deliver exceptional food and service.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/star.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">State-of-the-Art</h5>
+                                <small>Kitchens</small>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>We offer a variety of kitchen spaces with different configurations to suit your needs. Sizes range from 18 to 24 m2 of space</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/star.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Different Configurations</h5>
+<!--                                <small>Kitchens</small>-->
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+
+
+        <!-- Team Start -->
+        <div class="container-fluid pt-5 pb-3 px-4 px-lg-5 scroll-slide-up">
+            <div class="container-fluid">
+                <div class="text-center scroll-reveal">
+<!--                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>-->
+                    <h1 class="mb-5">Integrated Systems</h1>
+                </div>
+                <div class="row g-4 scroll-stagger">
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/photos/intercom-phone-close.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Communication Systems</h5>
+                            <small> </small>
+                            <div class="d-flex justify-content-center mt-3">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/photos/close-gas.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Fire Safety Sytems</h5>
+                            <small> </small>
+                            <div class="d-flex justify-content-center mt-3">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/photos/interlock-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Gas Interlock System</h5>
+                            <small> </small>
+                            <div class="d-flex justify-content-center mt-3">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 scroll-stagger-item">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Canopy Extraction System</h5>
+                            <small> </small>
+                            <div class="d-flex justify-content-center mt-3">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Site Map</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="service.html">Services</a>
+                        <a class="btn btn-link" href="why_us.html">Why Us?</a>
+                        <a class="btn btn-link" href="our-kitchens.html">Our Kitchens</a>
+<!--                        <a class="btn btn-link" href="">Terms & Condition</a>-->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Tyseley, Birmingham </p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0121 271 0786</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>enquiries@thefoodcounter.co.uk</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Sunday</h5>
+                        <p>12:00AM - 12:00AM (24 Hour)</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>If you would like to stay up-to-date. please leave your email below</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <form action="https://formsubmit.co/enquiries@thefoodcounter.co.uk" method="post">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" id="newsletter-email" name="newsletter-email" type="text" placeholder="Your email">
+                            <button type="submit"class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+
+
+                            <input type="hidden" name="_template" value="table">
+                            <!-- <input type="hidden" name="_autoresponse" value="Thank you for registering to our newsletter! The Food Counter"> -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://yourdomain.vercel.app/thankyou.html">
+
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">The Food Counter LTD.</a>, All Right Reserved.
+							
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="contact.html">Help</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
