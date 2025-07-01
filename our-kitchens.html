@@ -1015,7 +1015,7 @@
             justify-content: center !important;
         }
         
-        /* Mobile cards center alignment */
+        /* Mobile cards center alignment and spacing */
         .d-lg-none .card {
             text-align: center;
         }
@@ -1026,6 +1026,78 @@
         
         .d-lg-none .card .d-flex {
             justify-content: center !important;
+        }
+        
+        /* Mobile card header spacing */
+        .d-lg-none .card-header {
+            padding: 2rem 1.5rem !important;
+        }
+        
+        .d-lg-none .card-header .d-flex {
+            gap: 2rem !important;
+        }
+        
+        .d-lg-none .card-header .logo-placeholder {
+            margin-left: 1.5rem !important;
+        }
+        
+        /* Responsive mobile spacing */
+        @media (max-width: 575.98px) {
+            .d-lg-none .card-header {
+                padding: 1.8rem 1.2rem !important;
+            }
+            
+            .d-lg-none .card-header .d-flex {
+                gap: 1.5rem !important;
+            }
+            
+            .d-lg-none .card-header .logo-placeholder {
+                margin-left: 1rem !important;
+            }
+        }
+        
+        @media (max-width: 374.98px) {
+            .d-lg-none .card-header {
+                padding: 1.5rem 1rem !important;
+            }
+            
+            .d-lg-none .card-header .d-flex {
+                gap: 1.2rem !important;
+            }
+            
+            .d-lg-none .card-header .logo-placeholder {
+                margin-left: 0.8rem !important;
+            }
+        }
+        
+        /* Call to Action Buttons Responsive Sizing */
+        @media (max-width: 767.98px) {
+            .btn-lg {
+                padding: 12px 24px !important;
+                font-size: 0.95rem !important;
+                border-radius: 22px !important;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            .btn-lg {
+                padding: 10px 20px !important;
+                font-size: 0.9rem !important;
+                border-radius: 20px !important;
+            }
+        }
+        
+        @media (max-width: 374.98px) {
+            .btn-lg {
+                padding: 8px 16px !important;
+                font-size: 0.85rem !important;
+                border-radius: 18px !important;
+            }
+            
+            .btn-lg i {
+                font-size: 0.8rem !important;
+                margin-right: 0.5rem !important;
+            }
         }
         
         /* All logo placeholder sizes updated */
