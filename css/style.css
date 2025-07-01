@@ -288,9 +288,42 @@ body.cursor-click .custom-cursor {
         bottom: 3px;
     }
 
+    /* Increase logo size slightly on mobile screens */
     .navbar-dark .navbar-brand img,
     .navbar-logo {
-        max-height: 50px; /* Slightly smaller for mobile */
+        max-height: 45px !important; /* Slightly larger than before */
+        width: auto;
+    }
+    
+    /* Fix navbar layout on mobile to prevent logo in dropdown */
+    .navbar {
+        flex-wrap: wrap !important;
+    }
+    
+    .navbar-brand {
+        flex-shrink: 0;
+    }
+    
+    .navbar-toggler {
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+    
+    .navbar-collapse {
+        flex-basis: 100%;
+        margin-top: 15px;
+        border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+    
+    /* Ensure navbar items are properly contained */
+    .navbar-collapse .navbar-nav {
+        width: 100%;
+    }
+    
+    /* Mobile contact button styling */
+    .navbar-collapse .btn {
+        margin-top: 15px;
+        width: 100%;
     }
 }
 
