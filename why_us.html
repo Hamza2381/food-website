@@ -59,9 +59,6 @@
                         <a href="service.html" class="nav-item nav-link" style="font-size: 16px;">Services</a>
                         <a href="our-kitchens.html" class="nav-item nav-link" style="font-size: 16px;">Our Kitchens</a>
                         <a href="why_us.html" class="nav-item nav-link active" style="font-size: 16px;">Why Us?</a>
-                        <div class="nav-item dropdown">
-
-                        </div>
                     </div>
                     <a href="contact.html" class="btn btn-primary py-2 px-4">Contact Us</a>
                 </div>
@@ -72,7 +69,7 @@
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Why Us?</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html" style="color: #FFBD59; text-decoration: none; font-weight: 500; transition: all 0.3s ease;" onmouseover="this.style.color='#E6A84D'" onmouseout="this.style.color='#FFBD59'">Home</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Why Us?</li>
                         </ol>
                     </nav>
@@ -84,68 +81,82 @@
 
         <!-- Testimonial Start -->
         <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #ffffff; position: relative; overflow: hidden;">
-            <div class="container">
-                <div class="text-center">
+            <!-- Background decorative elements -->
+            <div style="position: absolute; top: -100px; right: -100px; width: 300px; height: 300px; background: linear-gradient(45deg, rgba(255, 189, 89, 0.03), transparent); border-radius: 50%; pointer-events: none;"></div>
+            <div style="position: absolute; bottom: -150px; left: -150px; width: 400px; height: 400px; background: linear-gradient(45deg, rgba(15, 23, 43, 0.02), transparent); border-radius: 50%; pointer-events: none;"></div>
+            
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="text-center scroll-reveal">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Why Us?</h5>
-                    <h1 class="mb-5">Just Cook. Simple. </h1>
-
-                    <p>Here are just a few reasons...</p>
-
+                    <h1 class="mb-5" style="font-weight: 700; color: #0F172B;">Just Cook. Simple.</h1>
+                    <p class="text-muted mx-auto mb-5" style="max-width: 600px; font-size: 1.1rem; line-height: 1.6;">Here are just a few reasons why The Food Counter is the perfect choice for your food business...</p>
                 </div>
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-map-marker fa-2x text-primary mb-3"></i>
-                        <p>Our kitchens are perfectly positioned to help new and established food businesses thrive, with easy access to key transport links, diverse demographics, and growing commercial areas</p>
+                
+                <div class="owl-carousel testimonial-carousel scroll-stagger">
+                    <div class="testimonial-item bg-transparent border rounded p-4 scroll-stagger-item" style="border-color: rgba(255, 189, 89, 0.2) !important; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(255, 189, 89, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; background: linear-gradient(145deg, #FFBD59, #E6A84D); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(255, 189, 89, 0.3);">
+                            <i class="fa fa-map-marker fa-2x" style="color: white;"></i>
+                        </div>
+                        <p style="line-height: 1.7; color: #6c757d;">Our kitchens are perfectly positioned to help new and established food businesses thrive, with easy access to key transport links, diverse demographics, and growing commercial areas</p>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
-                                <h5 class="mb-1">Prime Location</h5>
-                                <small>Birmingham</small>
+                                <h5 class="mb-1" style="color: #0F172B; font-weight: 600;">Prime Location</h5>
+                                <small style="color: #FFBD59; font-weight: 500;">Birmingham</small>
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-file fa-2x text-primary mb-3"></i>
-                        <p>At The Food Counter, your success is our priority. That’s why we offer flexible contracts with zero setup costs, allowing you to focus on growing your business without the burden of upfront expenses</p>
+                    
+                    <div class="testimonial-item bg-transparent border rounded p-4 scroll-stagger-item" style="border-color: rgba(255, 189, 89, 0.2) !important; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(255, 189, 89, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; background: linear-gradient(145deg, #FFBD59, #E6A84D); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(255, 189, 89, 0.3);">
+                            <i class="fa fa-file fa-2x" style="color: white;"></i>
+                        </div>
+                        <p style="line-height: 1.7; color: #6c757d;">At The Food Counter, your success is our priority. That's why we offer flexible contracts with zero setup costs, allowing you to focus on growing your business without the burden of upfront expenses</p>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
-                                <h5 class="mb-1">Flexible</h5>
-                                <small>Flexible contracts available</small>
+                                <h5 class="mb-1" style="color: #0F172B; font-weight: 600;">Flexible</h5>
+                                <small style="color: #FFBD59; font-weight: 500;">Flexible contracts available</small>
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-industry fa-2x text-primary mb-3"></i>
-                        <p>We pride ourselves on offering some of the most competitive rates in the market. Our dedicated support team works quickly to get you up and running in no time, minimizing delays and helping you hit the ground running</p>
+                    
+                    <div class="testimonial-item bg-transparent border rounded p-4 scroll-stagger-item" style="border-color: rgba(255, 189, 89, 0.2) !important; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(255, 189, 89, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; background: linear-gradient(145deg, #FFBD59, #E6A84D); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(255, 189, 89, 0.3);">
+                            <i class="fa fa-industry fa-2x" style="color: white;"></i>
+                        </div>
+                        <p style="line-height: 1.7; color: #6c757d;">We pride ourselves on offering some of the most competitive rates in the market. Our dedicated support team works quickly to get you up and running in no time, minimizing delays and helping you hit the ground running</p>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
-                                <h5 class="mb-1">Quick Start-Up</h5>
-                                <small>Competitive Pricing</small>
+                                <h5 class="mb-1" style="color: #0F172B; font-weight: 600;">Quick Start-Up</h5>
+                                <small style="color: #FFBD59; font-weight: 500;">Competitive Pricing</small>
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-bullseye fa-2x text-primary mb-3"></i>
-                        <p>Our kitchens are professionally designed to meet the highest commercial standards. Each space is tailored to support the specific needs of your food business, ensuring you can deliver exceptional food and service</p>
+                    
+                    <div class="testimonial-item bg-transparent border rounded p-4 scroll-stagger-item" style="border-color: rgba(255, 189, 89, 0.2) !important; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(255, 189, 89, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; background: linear-gradient(145deg, #FFBD59, #E6A84D); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(255, 189, 89, 0.3);">
+                            <i class="fa fa-bullseye fa-2x" style="color: white;"></i>
+                        </div>
+                        <p style="line-height: 1.7; color: #6c757d;">Our kitchens are professionally designed to meet the highest commercial standards. Each space is tailored to support the specific needs of your food business, ensuring you can deliver exceptional food and service</p>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
-                                <h5 class="mb-1">State-of-the-Art</h5>
-                                <small>Kitchens</small>
+                                <h5 class="mb-1" style="color: #0F172B; font-weight: 600;">State-of-the-Art</h5>
+                                <small style="color: #FFBD59; font-weight: 500;">Kitchens</small>
                             </div>
                         </div>
                     </div>
 
-
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-cog fa-2x text-primary mb-3"></i>
-                        <p>We offer a variety of kitchen spaces with different configurations to suit your needs. Sizes range from 18 to 24 m2 of space</p>
+                    <div class="testimonial-item bg-transparent border rounded p-4 scroll-stagger-item" style="border-color: rgba(255, 189, 89, 0.2) !important; transition: all 0.3s ease; box-shadow: 0 5px 20px rgba(255, 189, 89, 0.1);">
+                        <div class="icon-wrapper mb-3" style="width: 70px; height: 70px; background: linear-gradient(145deg, #FFBD59, #E6A84D); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(255, 189, 89, 0.3);">
+                            <i class="fa fa-cog fa-2x" style="color: white;"></i>
+                        </div>
+                        <p style="line-height: 1.7; color: #6c757d;">We offer a variety of kitchen spaces with different configurations to suit your needs. Sizes range from 18 to 24 m2 of space</p>
                         <div class="d-flex align-items-center">
                             <div class="ps-3">
-                                <h5 class="mb-1">Different Configurations</h5>
+                                <h5 class="mb-1" style="color: #0F172B; font-weight: 600;">Different Configurations</h5>
+                                <small style="color: #FFBD59; font-weight: 500;">Flexible Layouts</small>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -206,15 +217,12 @@
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">The Food Counter LTD.</a>, All Right Reserved.
-							
-
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="index.html">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="contact.html">Help</a>
-
                             </div>
                         </div>
                     </div>
@@ -242,6 +250,32 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Enhanced Hover Effects for Why Us Cards -->
+    <style>
+        .testimonial-item:hover {
+            border-color: rgba(255, 189, 89, 0.4) !important;
+            box-shadow: 0 10px 30px rgba(255, 189, 89, 0.2) !important;
+            transform: translateY(-5px);
+        }
+        
+        .testimonial-item:hover .icon-wrapper {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 12px 35px rgba(255, 189, 89, 0.4);
+        }
+        
+        .testimonial-item:hover h5 {
+            color: #FFBD59 !important;
+        }
+        
+        .icon-wrapper {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-item h5 {
+            transition: all 0.3s ease;
+        }
+    </style>
 </body>
 
 </html>
