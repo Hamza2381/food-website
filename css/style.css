@@ -497,7 +497,9 @@ body.cursor-click .custom-cursor {
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: #FFBD59 !important;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 50px rgba(255, 189, 89, 0.4) !important;
 }
 
 .service-item * {
@@ -505,7 +507,23 @@ body.cursor-click .custom-cursor {
 }
 
 .service-item:hover * {
-    color: var(--light) !important;
+    color: #FFFFFF !important;
+}
+
+/* Additional hover effects for service items */
+.service-item:hover h5 {
+    color: #FFFFFF !important;
+    font-weight: 600;
+}
+
+.service-item:hover p {
+    color: #FFFFFF !important;
+    opacity: 0.95;
+}
+
+.service-item:hover i {
+    color: #FFFFFF !important;
+    transform: scale(1.1);
 }
 
 /* Modern Service Cards */

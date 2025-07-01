@@ -71,7 +71,7 @@
                     <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html" style="color: #FFBD59;">Home</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">About</li>
                         </ol>
                     </nav>
@@ -102,14 +102,14 @@
                         </div>
                     </div>
                     <div class="col-lg-6 scroll-slide-right">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                        <h1 class="mb-4">The Food Counter <i class="fa fa-utensils text-primary me-2"></i> </h1>
+                        <h5 class="section-title ff-secondary text-start fw-normal" style="color: #FFBD59;">About Us</h5>
+                        <h1 class="mb-4">The Food Counter <i class="fa fa-utensils me-2" style="color: #FFBD59;"></i> </h1>
                         <p class="mb-4">We are a leading provider of ghost and dark kitchen solutions, designed to help food entrepreneurs launch and grow their businesses with ease. We offer state-of-the-art kitchen facilities to support the success of our users in the competitive food industry.</p>
                         <p class="mb-4">Located in the heart of Birmingham’s bustling Tyseley industrial estate, The Food Counter benefits from a prime position near the main Warwick Road. Our strategic location offers easy access to residential, commercial, and industrial districts, and is conveniently situated less than 2.5 miles from the city centre—outside the ULEZ zone. With direct access to key transport routes such as the A34, A45, and A41, businesses operating from The Food Counter enjoy efficient connectivity across Birmingham and the surrounding areas.</p>
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6 scroll-reveal">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                <div class="d-flex align-items-center border-start border-5 px-3" style="border-color: #FFBD59 !important;">
+                                    <h1 class="flex-shrink-0 display-5 mb-0" data-toggle="counter-up" style="color: #FFBD59;">15</h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Years of</p>
                                         <h6 class="text-uppercase mb-0">Experience</h6>
@@ -120,7 +120,22 @@
 
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Get In Touch</a>
+                        <a class="btn btn-lg px-5 py-3 rounded-pill get-in-touch-btn" href="contact.html" style="background: linear-gradient(45deg, #FFBD59, #E6A84D); border: none; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 8px 25px rgba(255, 189, 89, 0.3); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; transform: translateY(0); color: white;">
+                            <!-- Animated background layers -->
+                            <div class="btn-bg-layer" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, #E6A84D, #d19640); opacity: 0; transition: opacity 0.4s ease; border-radius: 50px;"></div>
+                            <div class="btn-shimmer" style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); transition: left 0.6s ease; border-radius: 50px;"></div>
+                            
+                            <!-- Button content -->
+                            <span class="btn-content" style="position: relative; z-index: 3; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                <i class="fa fa-phone me-3 btn-icon" style="transition: all 0.3s ease;"></i>
+                                <span class="btn-text">Get In Touch</span>
+                            </span>
+                            
+                            <!-- Floating particles effect -->
+                            <div class="btn-particle particle-1" style="position: absolute; width: 4px; height: 4px; background: rgba(255,255,255,0.6); border-radius: 50%; top: 20%; left: 20%; opacity: 0; transition: all 0.6s ease;"></div>
+                            <div class="btn-particle particle-2" style="position: absolute; width: 3px; height: 3px; background: rgba(255,255,255,0.4); border-radius: 50%; top: 60%; right: 30%; opacity: 0; transition: all 0.8s ease;"></div>
+                            <div class="btn-particle particle-3" style="position: absolute; width: 2px; height: 2px; background: rgba(255,255,255,0.5); border-radius: 50%; bottom: 30%; left: 60%; opacity: 0; transition: all 0.7s ease;"></div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -132,7 +147,7 @@
         <div class="container-fluid pt-5 pb-3 px-4 px-lg-5 scroll-slide-up">
             <div class="container-fluid">
                 <div class="text-center scroll-reveal">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">The Food Counter</h5>
+                    <h5 class="section-title ff-secondary text-center fw-normal" style="color: #FFBD59;">The Food Counter</h5>
                     <h1 class="mb-5">Gallery</h1>
                 </div>
                 <div class="row g-4 scroll-stagger">
@@ -241,7 +256,7 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
 
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Site Map</h4>
+                        <h4 class="section-title ff-secondary text-start fw-normal mb-4" style="color: #FFBD59;">Site Map</h4>
                         <a class="btn btn-link" href="about.html">About Us</a>
                         <a class="btn btn-link" href="contact.html">Contact Us</a>
                         <a class="btn btn-link" href="service.html">Services</a>
@@ -249,7 +264,7 @@
                         <a class="btn btn-link" href="our-kitchens.html">Our Kitchens</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <h4 class="section-title ff-secondary text-start fw-normal mb-4" style="color: #FFBD59;">Contact</h4>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Tyseley, Birmingham</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0121 271 0786</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>enquiries@thefoodcounter.co.uk</p>
@@ -261,18 +276,18 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h4 class="section-title ff-secondary text-start fw-normal mb-4" style="color: #FFBD59;">Opening</h4>
                         <h5 class="text-light fw-normal">Monday - Sunday</h5>
                         <p>12:00AM - 12:00AM (24 Hour)</p>
 
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <h4 class="section-title ff-secondary text-start fw-normal mb-4" style="color: #FFBD59;">Newsletter</h4>
                         <p>If you would like to stay up-to-date. please leave your email below</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                         <form action="https://formsubmit.co/enquiries@thefoodcounter.co.uk" method="post">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" id="newsletter-email" name="newsletter-email" type="text" placeholder="Your email">
-                            <button type="submit"class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+                            <input class="form-control w-100 py-3 ps-4 pe-5" id="newsletter-email" name="newsletter-email" type="text" placeholder="Your email" style="border-color: #FFBD59;">
+                            <button type="submit" class="btn py-2 position-absolute top-0 end-0 mt-2 me-2" style="background-color: #FFBD59; border-color: #FFBD59; color: white;">Sign Up</button>
 
 
                             <input type="hidden" name="_template" value="table">
@@ -289,7 +304,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">The Food Counter LTD.</a>, All Right Reserved.
+                            &copy; <a class="border-bottom" href="index.html" style="color: #FFBD59;">The Food Counter LTD.</a>, All Right Reserved.
 							
                         </div>
                         <div class="col-md-6 text-center text-md-end">
@@ -307,7 +322,7 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top" style="background-color: #FFBD59; border-color: #FFBD59; color: white;"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
