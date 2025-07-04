@@ -51,6 +51,74 @@ body.cursor-click .custom-cursor {
     }
 }
 
+/* Float Animation for Order Food CTA Section */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+}
+
+/* Order Food Button Enhancement */
+.order-food-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.order-food-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: left 0.5s;
+}
+
+.order-food-btn:hover::before {
+    left: 100%;
+}
+
+/* Responsive styles for Order Food CTA Section */
+@media (max-width: 768px) {
+    .order-food-btn {
+        min-width: 200px !important;
+        font-size: 0.9rem !important;
+        padding: 12px 25px !important;
+    }
+    
+    .order-food-cta h2 {
+        font-size: 1.8rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .order-food-cta p {
+        font-size: 1rem !important;
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .order-food-btn {
+        min-width: 180px !important;
+        font-size: 0.85rem !important;
+        padding: 10px 20px !important;
+    }
+    
+    .order-food-cta h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .order-food-cta p {
+        font-size: 0.95rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
