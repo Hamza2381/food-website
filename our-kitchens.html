@@ -30,6 +30,58 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Mobile Hero Optimization -->
+    <style>
+        /* Mobile hero section adjustments */
+        @media (max-width: 768px) {
+            .hero-header {
+                min-height: 24vh !important;
+                padding: 2rem 0 !important;
+            }
+            
+            .hero-header .container {
+                text-align: center !important;
+            }
+            
+            .hero-header h1 {
+                text-align: center !important;
+                font-size: 2.2rem !important;
+            }
+            
+            .hero-header .breadcrumb {
+                justify-content: center !important;
+                text-align: center !important;
+            }
+            
+            /* Hide main content heading on mobile */
+            .text-center.wow.fadeInUp.mb-3 h1 {
+                display: none !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-header {
+                min-height: 22vh !important;
+                padding: 1.8rem 0 !important;
+            }
+            
+            .hero-header h1 {
+                font-size: 1.9rem !important;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .hero-header {
+                min-height: 20vh !important;
+                padding: 1.6rem 0 !important;
+            }
+            
+            .hero-header h1 {
+                font-size: 1.7rem !important;
+            }
+        }
+    </style>
 </head>
 
 <body style="overflow-x: hidden;">
